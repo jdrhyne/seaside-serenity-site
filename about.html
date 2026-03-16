@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About — Seaside Serenity</title>
-    <meta name="description" content="The founder story and brand direction behind Seaside Serenity." />
+    <meta name="description" content="The public founder story and creative direction behind Seaside Serenity." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="site-shell">
+      <div class="announcement-bar">
+        <div class="container announcement-inner">
+          <span>About the brand</span>
+          <span>Drawn from beach memories</span>
+          <span>Parent-managed</span>
+        </div>
+      </div>
+
       <header class="topbar container">
         <a class="brand" href="index.html" aria-label="Seaside Serenity home">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img">
-              <path d="M12 42c0-13.255 8.745-24 20-24s20 10.745 20 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <path d="M19 42c3.5-3.8 8-5.7 13-5.7 4.9 0 9.4 1.9 13 5.7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <circle cx="32" cy="27" r="5.5" fill="currentColor" opacity=".9" />
-            </svg>
-          </span>
+          <img src="assets/logo-seaside-serenity.svg" alt="Seaside Serenity logo" />
           <span>
             <strong>Seaside Serenity</strong>
             <em>where dreams are made into fashion</em>
@@ -31,12 +33,20 @@
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-        <nav id="site-nav" class="site-nav">
-          <a href="index.html">Home</a>
-          <a href="collection.html">Collection</a>
-          <a href="about.html" aria-current="page">About</a>
-          <a href="index.html#faq">FAQ</a>
-        </nav>
+
+        <div class="header-actions">
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="index.html#faq">FAQ</a>
+          </nav>
+          <div class="utility-actions">
+            <a class="utility-pill" href="collection.html#special">Special</a>
+            <a class="utility-pill" href="index.html#faq">Help</a>
+            <a class="utility-pill" href="collection.html">Search</a>
+          </div>
+        </div>
       </header>
 
       <main class="container section about-layout">
@@ -44,46 +54,67 @@
           <p class="eyebrow">About the brand</p>
           <h1>Built from beach memories, color ideas, and a young founder’s imagination.</h1>
           <p class="lede">
-            Seaside Serenity began with hand-drawn pages full of product names, prices, logo ideas, and a dream of turning a love for the beach into fashion.
+            Seaside Serenity began with hand-drawn pages full of product names, prices, category ideas, a tagline, and a sunrise logo concept. This version keeps that energy visible while presenting it in a cleaner public story.
           </p>
         </section>
 
         <section class="about-grid">
-          <article class="about-card card-soft reveal">
-            <h2>The public story</h2>
+          <article class="about-card note-card reveal">
+            <p class="scribble">public founder note</p>
+            <h2>Hi, I’m Lillian.</h2>
             <p>
-              Hi, I’m Lillian, and I created Seaside Serenity because I love the beach, bright colors, and designing clothes that feel fun and peaceful. This collection is inspired by sunshine, ocean colors, and ideas that started as sketches on paper.
+              I created Seaside Serenity because I love the beach, bright colors, and designing clothes that feel fun and peaceful. This collection is inspired by sunshine, ocean colors, and ideas that started as sketches on paper.
             </p>
             <p>
               I wanted the brand to feel cheerful, calm, creative, and a little dreamy — like carrying a bit of summer with you.
             </p>
           </article>
 
-          <article class="about-card lined-paper reveal delay-1">
-            <h2>What makes it distinct</h2>
-            <ul class="detail-list">
-              <li>Names and concepts came from the original sketches.</li>
-              <li>The visual language mixes softness with playful motifs.</li>
-              <li>The first drop stays small on purpose so it can actually launch.</li>
-              <li>Adult-managed operations keep the project safe and practical.</li>
+          <article class="about-card lined-card reveal delay-1">
+            <h2>What stayed from the original drawings</h2>
+            <ul class="detail-list stacked">
+              <li>The exact Seaside Serenity name and tagline.</li>
+              <li>A sun / sunrise logo motif with rounded boutique styling.</li>
+              <li>Category labels like hoodies, sweaters, PJs, tote bag, swimwear, and special.</li>
+              <li>Named products with visible prices and playful motifs.</li>
             </ul>
           </article>
         </section>
 
         <section class="principles reveal">
-          <p class="eyebrow">Creative principles</p>
+          <div class="section-heading left">
+            <p class="eyebrow">Creative principles</p>
+            <h2>The brand should feel sunny, calm, and playful.</h2>
+          </div>
           <div class="principle-grid">
             <article class="principle-card">
               <h3>Sunny</h3>
-              <p>Yellow, gold, sunrise, and sunset notes should make the brand feel warm before it says a word.</p>
+              <p>Yellow, sunrise notes, soft coral, and warm highlights should make the site feel bright before it says a word.</p>
             </article>
             <article class="principle-card">
               <h3>Calm</h3>
-              <p>Sea blue, soft aqua, and airy spacing keep it from becoming noisy or chaotic.</p>
+              <p>Sea blue, airy spacing, and rounded forms keep it soft and peaceful instead of loud or chaotic.</p>
             </article>
             <article class="principle-card">
               <h3>Playful</h3>
-              <p>Polka dots, bows, fish, and pattern moments make it feel young without turning it childish.</p>
+              <p>Hearts, bows, fish, dots, and handwritten cues make it feel young without turning it into a generic kids template.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section sketch-board reveal">
+          <div class="board-grid">
+            <article class="board-card wash-card">
+              <h3>What is public</h3>
+              <p>First name only, brand story, creative direction, and product concepts.</p>
+            </article>
+            <article class="board-card note-card">
+              <h3>What stays parent-managed</h3>
+              <p>Contact, payments, customer service, policies, shipping, and any eventual Shopify checkout.</p>
+            </article>
+            <article class="board-card lined-card">
+              <h3>Why this matters</h3>
+              <p>The website can feel real and exciting for her without pushing adult business responsibilities onto her.</p>
             </article>
           </div>
         </section>
@@ -91,7 +122,7 @@
 
       <footer class="footer container">
         <p>Seaside Serenity — about the brand</p>
-        <p><span id="year"></span> · Built as a launch preview</p>
+        <p><span id="year"></span> · Sketch-faithful public story</p>
       </footer>
     </div>
     <script src="script.js"></script>

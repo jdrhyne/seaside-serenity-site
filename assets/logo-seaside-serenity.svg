@@ -1,0 +1,24 @@
+<svg width="520" height="520" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunrise" x1="78" y1="92" x2="441" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2B8"/>
+      <stop offset="0.34" stop-color="#FFD46E"/>
+      <stop offset="0.7" stop-color="#FFB48C"/>
+      <stop offset="1" stop-color="#8BD5E0"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="93" y1="302" x2="425" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6AB9C7"/>
+      <stop offset="1" stop-color="#2E6F8B"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" rx="84" fill="#FFF9F1"/>
+  <path d="M106 342C106 245.942 174.39 168 259 168C343.61 168 412 245.942 412 342" stroke="#2A6C82" stroke-width="18" stroke-linecap="round"/>
+  <path d="M130 343C158 309 203 289 259 289C315 289 360 309 388 343" stroke="#2A6C82" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="259" cy="242" r="46" fill="url(#sunrise)" stroke="#2A6C82" stroke-width="12"/>
+  <path d="M120 374C156 360 202 353 258 353C314 353 360 360 400 374" stroke="url(#ocean)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M134 405C176 391 218 386 260 386C302 386 343 391 385 405" stroke="url(#ocean)" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+  <path d="M186 105C199.5 88.5 225.5 80.5 250 92C267.5 100 279.5 118 281 137" stroke="#F39C8F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M333 119C347 102 373 96 392 107C404 114 412 127 415 141" stroke="#F2C14D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M164 201C177.5 176 206 157 241 157C279 157 310 177 323 205" stroke="#2A6C82" stroke-width="10" stroke-linecap="round" opacity="0.24"/>
+  <text x="154" y="456" fill="#2A6C82" font-size="108" font-weight="700" font-family="Georgia, 'Times New Roman', serif">SS</text>
+</svg>

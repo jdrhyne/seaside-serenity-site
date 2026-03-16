@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collection — Seaside Serenity</title>
-    <meta name="description" content="The first six-product collection for Seaside Serenity." />
+    <meta name="description" content="The first Seaside Serenity collection, shaped directly from the sketchbook." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="site-shell">
+      <div class="announcement-bar">
+        <div class="container announcement-inner">
+          <span>The first drop</span>
+          <span>Six named pieces from the sketchbook</span>
+          <span>Special section included below</span>
+        </div>
+      </div>
+
       <header class="topbar container">
         <a class="brand" href="index.html" aria-label="Seaside Serenity home">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img">
-              <path d="M12 42c0-13.255 8.745-24 20-24s20 10.745 20 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <path d="M19 42c3.5-3.8 8-5.7 13-5.7 4.9 0 9.4 1.9 13 5.7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <circle cx="32" cy="27" r="5.5" fill="currentColor" opacity=".9" />
-            </svg>
-          </span>
+          <img src="assets/logo-seaside-serenity.svg" alt="Seaside Serenity logo" />
           <span>
             <strong>Seaside Serenity</strong>
             <em>where dreams are made into fashion</em>
@@ -31,21 +33,39 @@
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-        <nav id="site-nav" class="site-nav">
-          <a href="index.html">Home</a>
-          <a href="collection.html" aria-current="page">Collection</a>
-          <a href="about.html">About</a>
-          <a href="index.html#faq">FAQ</a>
-        </nav>
+
+        <div class="header-actions">
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="collection.html" aria-current="page">Collection</a>
+            <a href="about.html">About</a>
+            <a href="index.html#faq">FAQ</a>
+          </nav>
+          <div class="utility-actions">
+            <a class="utility-pill" href="#special">Special</a>
+            <a class="utility-pill" href="index.html#faq">Help</a>
+            <a class="utility-pill" href="#top">Search</a>
+          </div>
+        </div>
       </header>
 
-      <main class="container section">
+      <main id="top" class="container section">
         <section class="section-heading reveal collection-header">
-          <p class="eyebrow">The first drop</p>
-          <h1>Six pieces, shaped directly from the sketchbook.</h1>
+          <p class="eyebrow">Collection</p>
+          <h1>Six pieces, shaped directly from the sketch pages.</h1>
           <p>
-            These descriptions are written so the collection already feels like a store, even before checkout and fulfillment are connected.
+            The sketch suggested a bigger fashion world. This page lets that world show up through the labels and presentation, while keeping the actual first-release scope small enough to launch responsibly.
           </p>
+        </section>
+
+        <section class="catalog-chrome reveal">
+          <span>Swimwear</span>
+          <span>Hoodies</span>
+          <span>Sweaters</span>
+          <span>PJs</span>
+          <span>Sweatpants</span>
+          <span>Tote bag</span>
+          <span id="special">Special</span>
         </section>
 
         <section class="detail-grid">
@@ -115,11 +135,32 @@
             </div>
           </article>
         </section>
+
+        <section class="special-section reveal">
+          <div class="section-heading left">
+            <p class="eyebrow">Special section</p>
+            <h2>The bigger dream stays visible here.</h2>
+          </div>
+          <div class="board-grid">
+            <article class="board-card note-card">
+              <h3>Shown in the sketch</h3>
+              <p>Swimwear, PJs, sweatpants, sweaters, hoodies, tote bags, a special section, and search/help chrome.</p>
+            </article>
+            <article class="board-card wash-card">
+              <h3>What is actually in scope now</h3>
+              <p>The six named pieces above. Enough to feel real, not so much that the project gets swallowed by complexity.</p>
+            </article>
+            <article class="board-card lined-card">
+              <h3>What happens next</h3>
+              <p>Pick the first real products, order samples, choose Printful or Printify, then wire this into Shopify if the family wants checkout.</p>
+            </article>
+          </div>
+        </section>
       </main>
 
       <footer class="footer container">
         <p>Seaside Serenity — first collection</p>
-        <p><span id="year"></span> · Built as a launch preview</p>
+        <p><span id="year"></span> · Sketch-faithful launch preview</p>
       </footer>
     </div>
     <script src="script.js"></script>

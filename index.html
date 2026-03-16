@@ -6,27 +6,29 @@
     <title>Seaside Serenity</title>
     <meta
       name="description"
-      content="Beach-inspired fashion designed to feel sunny, calm, and creative. A first collection preview for Seaside Serenity."
+      content="A sketch-faithful first website build for Seaside Serenity — beachy, playful, and parent-managed."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="site-shell">
+      <div class="announcement-bar">
+        <div class="container announcement-inner">
+          <span>Launch preview</span>
+          <span>Built from the original sketch pages</span>
+          <span>Parent-managed</span>
+        </div>
+      </div>
+
       <header class="topbar container">
         <a class="brand" href="index.html" aria-label="Seaside Serenity home">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img">
-              <path d="M12 42c0-13.255 8.745-24 20-24s20 10.745 20 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <path d="M19 42c3.5-3.8 8-5.7 13-5.7 4.9 0 9.4 1.9 13 5.7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
-              <circle cx="32" cy="27" r="5.5" fill="currentColor" opacity=".9" />
-            </svg>
-          </span>
+          <img src="assets/logo-seaside-serenity.svg" alt="Seaside Serenity logo" />
           <span>
             <strong>Seaside Serenity</strong>
             <em>where dreams are made into fashion</em>
@@ -34,83 +36,132 @@
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-        <nav id="site-nav" class="site-nav">
-          <a href="index.html">Home</a>
-          <a href="collection.html">Collection</a>
-          <a href="about.html">About</a>
-          <a href="#faq">FAQ</a>
-        </nav>
+
+        <div class="header-actions">
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="about.html">About</a>
+            <a href="#faq">FAQ</a>
+          </nav>
+          <div class="utility-actions" aria-label="Sketch-inspired utility actions">
+            <a class="utility-pill" href="collection.html#special">Special</a>
+            <a class="utility-pill" href="#faq">Help</a>
+            <a class="utility-pill" href="collection.html">Search</a>
+          </div>
+        </div>
       </header>
+
+      <div class="category-ribbon">
+        <div class="container ribbon-track" aria-label="Sketch category ribbon">
+          <span>Swimwear</span>
+          <span>Hoodies</span>
+          <span>Sweaters</span>
+          <span>PJs</span>
+          <span>Sweatpants</span>
+          <span>Tote bag</span>
+          <span>Special</span>
+          <span>Search</span>
+          <span>Help</span>
+        </div>
+      </div>
 
       <main>
         <section class="hero container section">
           <div class="hero-copy reveal">
-            <p class="eyebrow">First collection preview</p>
-            <h1>Soft beach fashion, translated from a child’s sketchbook into a real brand.</h1>
+            <p class="eyebrow">First build, now closer to the sketch</p>
+            <h1>Sunny, hand-drawn fashion energy — translated into a real website.</h1>
             <p class="lede">
-              Seaside Serenity is a sunny, seaside-inspired label built around color, calm, and playful detail. This first build turns Lillian’s hand-drawn ideas into a polished website she can shape and refine.
+              Seaside Serenity is meant to feel like a beach-day sketchbook turned into a boutique storefront.
+              The name, sunrise motif, categories, prices, and product names all came from the original drawings —
+              now shaped into a cleaner, safer first launch preview.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="collection.html">Shop the first drop</a>
-              <a class="button button-secondary" href="about.html">Read the story</a>
+              <a class="button button-primary" href="collection.html">See the collection</a>
+              <a class="button button-secondary" href="about.html">Read the founder note</a>
             </div>
-            <ul class="hero-notes" aria-label="collection notes">
-              <li>Beach-inspired</li>
-              <li>Parent-managed</li>
-              <li>Built from her sketches</li>
-            </ul>
+            <div class="hero-notes" aria-label="Project notes">
+              <span>Sketch-faithful chrome</span>
+              <span>Custom sunrise SS logo</span>
+              <span>Real MVP still kept small</span>
+            </div>
           </div>
 
-          <div class="hero-art reveal delay-1" aria-hidden="true">
-            <div class="sun-card card-shadow">
-              <div class="sun-card-inner">
-                <span class="mini-label">Founder’s vision</span>
-                <h2>Seaside Serenity</h2>
-                <p>Sunrise colors. Calm water. Creative fashion.</p>
-                <div class="sun-arch">
-                  <div class="sun"></div>
-                  <div class="wave wave-one"></div>
-                  <div class="wave wave-two"></div>
-                  <div class="wave wave-three"></div>
-                </div>
+          <div class="hero-window reveal delay-1">
+            <div class="window-card card-shadow">
+              <div class="window-topline">
+                <span class="window-chip">Seaside Serenity</span>
+                <span class="window-chip alt">special section</span>
+              </div>
+
+              <div class="window-logo">
+                <img src="assets/logo-seaside-serenity.svg" alt="Seaside Serenity sunrise logo" />
+              </div>
+
+              <div class="window-copy">
+                <p class="scribble">where dreams are made into fashion</p>
+                <div class="heart-divider" aria-hidden="true">♥ ♥ ♥</div>
+                <p>
+                  A sketchy, dreamy, beach-inspired fashion brand with soft colors, playful details, and a sunny mood.
+                </p>
+              </div>
+
+              <div class="mini-cards">
+                <article>
+                  <strong>Yellow Sun</strong>
+                  <span>$25</span>
+                </article>
+                <article>
+                  <strong>Gray Bow</strong>
+                  <span>$30</span>
+                </article>
+                <article>
+                  <strong>Fish Out of the Water</strong>
+                  <span>$30</span>
+                </article>
               </div>
             </div>
-            <div class="floating-tag tag-a">Totes</div>
-            <div class="floating-tag tag-b">Hoodies</div>
-            <div class="floating-tag tag-c">Polka dots</div>
           </div>
         </section>
 
-        <section class="section container story-grid">
-          <div class="story-card card-soft reveal">
-            <p class="eyebrow">From the sketch pages</p>
-            <h2>What she already gave us</h2>
-            <p>
-              A name, a logo idea, category ideas, product names, prices, and a founder note. That is not a vague concept. It is the beginning of a real brand.
-            </p>
+        <section class="section container sketch-board reveal">
+          <div class="section-heading">
+            <p class="eyebrow">What came from the sketch</p>
+            <h2>Not just the name — the whole storefront language.</h2>
           </div>
-          <div class="story-card lined-paper reveal delay-1">
-            <p class="eyebrow">Creative cues we preserved</p>
-            <div class="pill-row">
-              <span class="pill">Seaside Sunset</span>
-              <span class="pill">Catamaran Sunrise</span>
-              <span class="pill">Yellow Sun</span>
-              <span class="pill">Fish Out of the Water</span>
-              <span class="pill">Gray Bow</span>
-              <span class="pill">White Polka Dots</span>
-            </div>
-            <p class="muted">
-              The aesthetic stays close to her original mood: soft, beachy, bright, playful, and a little dreamy.
-            </p>
+
+          <div class="board-grid">
+            <article class="board-card lined-card">
+              <h3>Visible chrome</h3>
+              <ul class="detail-list">
+                <li>Search and Help shown in the header.</li>
+                <li>Special section included as part of the storefront chrome.</li>
+                <li>Category labels preserved from the drawing.</li>
+              </ul>
+            </article>
+
+            <article class="board-card wash-card">
+              <h3>Visual cues</h3>
+              <p>
+                Sunrise arch logo, handwritten accents, beach palette, hearts, rounded buttons, and a boutique window feel instead of a generic ecommerce template.
+              </p>
+            </article>
+
+            <article class="board-card note-card">
+              <h3>MVP discipline</h3>
+              <p>
+                The sketch shows a broader catalog. The site shows that world visually, but the actual first build still keeps the launch scope small and parent-managed.
+              </p>
+            </article>
           </div>
         </section>
 
-        <section class="section container">
+        <section class="section container product-showcase">
           <div class="section-heading reveal">
             <p class="eyebrow">Featured collection</p>
-            <h2>The first six pieces</h2>
+            <h2>The first six pieces from the pages.</h2>
             <p>
-              These are the strongest names from the sketches, shaped into a clean first capsule that feels launchable.
+              These are the strongest names from the sketches, kept visible as a real starter collection while the bigger brand world stays aspirational for now.
             </p>
           </div>
 
@@ -171,23 +222,23 @@
           </div>
         </section>
 
-        <section class="section container collection-strip reveal">
-          <div>
-            <p class="eyebrow">Brand direction</p>
-            <h2>Coastal softness with a playful fashion edge.</h2>
+        <section class="section container promise-strip reveal">
+          <div class="promise-intro">
+            <p class="eyebrow">Important</p>
+            <h2>This looks closer to the sketch, but the real launch is still intentionally constrained.</h2>
           </div>
-          <div class="strip-panels">
+          <div class="promise-panels">
             <div class="strip-panel">
-              <span>Palette</span>
-              <strong>Sea blue, aqua, sand, yellow, lavender, white</strong>
+              <span>Visible brand world</span>
+              <strong>Swimwear, PJs, sweatpants, specials, tote bags</strong>
             </div>
             <div class="strip-panel">
-              <span>Categories</span>
-              <strong>Hoodies, sweaters, PJs, tote bags, swimwear, specials</strong>
+              <span>Actual first build</span>
+              <strong>Tee, hoodie, sweatshirt, tote, six named products</strong>
             </div>
             <div class="strip-panel">
-              <span>Next build</span>
-              <strong>Shopify product pages + print-on-demand integration</strong>
+              <span>Next real step</span>
+              <strong>Shopify + POD once final products and costs are chosen</strong>
             </div>
           </div>
         </section>
@@ -195,25 +246,25 @@
         <section class="section container faq-shell" id="faq">
           <div class="section-heading reveal">
             <p class="eyebrow">FAQ</p>
-            <h2>Built to be safe, simple, and parent-managed.</h2>
+            <h2>Still safe, still parent-managed.</h2>
           </div>
           <div class="faq-grid">
             <article class="faq-card reveal">
-              <h3>Is this a live store yet?</h3>
+              <h3>Is this live checkout yet?</h3>
               <p>
-                Not yet. This first build is a launch-ready brand site and collection preview. Checkout can be added through Shopify once products and print-on-demand vendors are finalized.
+                Not yet. This is a real deployed site, but still a launch preview. Checkout should be added only after the final first-drop products and vendor are chosen.
               </p>
             </article>
             <article class="faq-card reveal delay-1">
-              <h3>Why not launch everything at once?</h3>
+              <h3>Why show more categories than the first drop?</h3>
               <p>
-                Because the first win is quality. A tight first drop gives her something real to react to without dragging the family into complexity too early.
+                Because the sketch imagined a fuller world. The site now reflects that world visually, while the actual first release stays disciplined.
               </p>
             </article>
             <article class="faq-card reveal delay-2">
               <h3>How is privacy handled?</h3>
               <p>
-                The public story uses first name only. Parent-managed email, payments, customer communication, and any future checkout stay under adult control.
+                Public story uses first name only. Parent-managed contact, payments, customer communication, and any future checkout remain under adult control.
               </p>
             </article>
           </div>
@@ -221,8 +272,8 @@
       </main>
 
       <footer class="footer container">
-        <p>Seaside Serenity — a first website build inspired by Lillian’s sketches.</p>
-        <p><span id="year"></span> · Built as a launch preview</p>
+        <p>Seaside Serenity — launch preview inspired directly by the sketches</p>
+        <p><span id="year"></span> · GitHub Pages build</p>
       </footer>
     </div>
     <script src="script.js"></script>

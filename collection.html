@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collection — Seaside Serenity</title>
+    <meta name="description" content="The first six-product collection for Seaside Serenity." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar container">
+        <a class="brand" href="index.html" aria-label="Seaside Serenity home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img">
+              <path d="M12 42c0-13.255 8.745-24 20-24s20 10.745 20 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M19 42c3.5-3.8 8-5.7 13-5.7 4.9 0 9.4 1.9 13 5.7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+              <circle cx="32" cy="27" r="5.5" fill="currentColor" opacity=".9" />
+            </svg>
+          </span>
+          <span>
+            <strong>Seaside Serenity</strong>
+            <em>where dreams are made into fashion</em>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="collection.html" aria-current="page">Collection</a>
+          <a href="about.html">About</a>
+          <a href="index.html#faq">FAQ</a>
+        </nav>
+      </header>
+
+      <main class="container section">
+        <section class="section-heading reveal collection-header">
+          <p class="eyebrow">The first drop</p>
+          <h1>Six pieces, shaped directly from the sketchbook.</h1>
+          <p>
+            These descriptions are written so the collection already feels like a store, even before checkout and fulfillment are connected.
+          </p>
+        </section>
+
+        <section class="detail-grid">
+          <article class="detail-card reveal">
+            <div class="detail-visual sunset-art"></div>
+            <div>
+              <div class="product-topline"><span>Tee</span><strong>$25</strong></div>
+              <h2>Seaside Sunset Tee</h2>
+              <p>
+                A soft, beach-inspired tee built around the feeling of the sky changing color at the edge of the water. Calm, colorful, and easy to wear.
+              </p>
+            </div>
+          </article>
+
+          <article class="detail-card reveal delay-1">
+            <div class="detail-visual sunrise-art"></div>
+            <div>
+              <div class="product-topline"><span>Hoodie</span><strong>$20</strong></div>
+              <h2>Catamaran Sunrise Hoodie</h2>
+              <p>
+                Cozy and bright with a morning-on-the-water energy. This one feels warm, peaceful, and full of color without being loud.
+              </p>
+            </div>
+          </article>
+
+          <article class="detail-card reveal delay-2">
+            <div class="detail-visual yellow-art"></div>
+            <div>
+              <div class="product-topline"><span>Tee</span><strong>$25</strong></div>
+              <h2>Yellow Sun Tee</h2>
+              <p>
+                Bright, cheerful, and simple in the best way. Yellow Sun is designed to bring a little warmth and optimism into everyday style.
+              </p>
+            </div>
+          </article>
+
+          <article class="detail-card reveal">
+            <div class="detail-visual fish-art"></div>
+            <div>
+              <div class="product-topline"><span>Tote</span><strong>$30</strong></div>
+              <h2>Fish Out of the Water Tote</h2>
+              <p>
+                A playful accessory with real personality. It adds a little humor and charm to the collection while still feeling fully on-brand.
+              </p>
+            </div>
+          </article>
+
+          <article class="detail-card reveal delay-1">
+            <div class="detail-visual bow-art"></div>
+            <div>
+              <div class="product-topline"><span>Sweatshirt</span><strong>$30</strong></div>
+              <h2>Gray Bow Sweatshirt</h2>
+              <p>
+                A softer, more polished piece for the quieter side of the line. Simple, sweet, and easy to pair with almost anything.
+              </p>
+            </div>
+          </article>
+
+          <article class="detail-card reveal delay-2">
+            <div class="detail-visual dot-art"></div>
+            <div>
+              <div class="product-topline"><span>Tee</span><strong>$25</strong></div>
+              <h2>White Polka Dots Tee</h2>
+              <p>
+                Light, classic, and playful. White Polka Dots brings pattern into the Seaside Serenity world in a way that feels timeless and cheerful.
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer container">
+        <p>Seaside Serenity — first collection</p>
+        <p><span id="year"></span> · Built as a launch preview</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

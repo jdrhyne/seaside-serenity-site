@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/logo-provided.png" />
+    <title>Product Preview — Seaside Serenity</title>
+    <meta
+      name="description"
+      content="A review-ready Seaside Serenity product placeholder page for family feedback before production art and commerce setup."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-product-page="true">
+    <div class="site-shell">
+      <div class="announcement-bar">
+        <div class="container announcement-inner">
+          <span>Family review preview</span>
+          <span>Placeholder mockup, not final art</span>
+          <span>Parent-managed</span>
+        </div>
+      </div>
+
+      <header class="topbar container">
+        <a class="brand" href="index.html" aria-label="Seaside Serenity home">
+          <img src="assets/logo-provided.png" alt="Seaside Serenity logo" />
+          <span>
+            <strong>Seaside Serenity</strong>
+            <em>where dreams are made into fashion</em>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+        <div class="header-actions">
+          <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="about.html">About</a>
+            <a href="index.html#faq">FAQ</a>
+          </nav>
+          <div class="utility-actions">
+            <a class="utility-pill" href="collection.html">All six</a>
+            <a class="utility-pill" href="#review-together">Review</a>
+            <a class="utility-pill" href="about.html">Story</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="container section preview-page">
+        <section class="preview-hero reveal">
+          <div class="preview-copy">
+            <p class="eyebrow">First-drop review preview</p>
+            <div id="product-pills" class="preview-pill-row" aria-label="Preview details"></div>
+            <h1 id="product-name">Seaside Sunset Tee</h1>
+            <p id="product-lede" class="lede">
+              Placeholder copy
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="collection.html">Back to the collection</a>
+              <a id="next-preview-link" class="button button-secondary" href="product.html?product=yellow-sun-tee">Next preview</a>
+            </div>
+            <article class="preview-note-card">
+              <p class="eyebrow">Review note</p>
+              <h2>React to the feeling first.</h2>
+              <p>
+                This page is here to help with feedback on mood, artwork placement, garment choice, and overall charm. The final production art still comes later.
+              </p>
+            </article>
+          </div>
+
+          <div class="preview-stage reveal delay-1">
+            <span class="stage-pill">placeholder mockup only</span>
+            <div id="garment" class="garment garment-tee shell-foam">
+              <div class="garment-hood"></div>
+              <div class="garment-pocket"></div>
+              <div class="garment-handles"></div>
+              <div id="design-mark" class="design-mark design-sunset">
+                <span id="design-label" class="design-label">sunset wash</span>
+              </div>
+              <span id="garment-tag" class="garment-tag">front art</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section preview-info">
+          <div class="preview-info-grid">
+            <article class="board-card note-card">
+              <p class="eyebrow">What to notice</p>
+              <ul id="review-focus" class="detail-list stacked"></ul>
+            </article>
+
+            <article class="board-card wash-card">
+              <p class="eyebrow">Color story</p>
+              <div id="color-story" class="swatch-list"></div>
+              <p id="blank-note" class="preview-support-copy"></p>
+            </article>
+
+            <article class="board-card lined-card">
+              <p class="eyebrow">Later, not now</p>
+              <p id="later-note" class="preview-support-copy"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section review-checklist" id="review-together">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Review together</p>
+            <h2>Questions to use while you look at this piece.</h2>
+          </div>
+          <div id="question-grid" class="question-grid"></div>
+        </section>
+
+        <section class="section preview-navigation reveal">
+          <div class="preview-navigation-card">
+            <p class="eyebrow">After the review</p>
+            <h2>Keep the favorite parts, then only change what really needs to move.</h2>
+            <p>
+              Once the family reaction is clear, the next step is art cleanup and sampling, not jumping straight into operations.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="collection.html">See all six together</a>
+              <a id="next-preview-link-bottom" class="button button-secondary" href="product.html?product=yellow-sun-tee">Next preview</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer container">
+        <p>Seaside Serenity — review-ready placeholder preview</p>
+        <p><span id="year"></span> · Not live commerce yet</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

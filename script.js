@@ -16,20 +16,18 @@ const productCatalog = {
   'seaside-sunset-tee': {
     name: 'Seaside Sunset Tee',
     type: 'Tee',
-    price: '$25 target',
-    blank: 'Light tee placeholder',
-    lede: 'A calm sunset tee with soft bands of sea blue, peach, and warm light. This preview is about the overall feeling and front placement, not the final print file yet.',
+    lede: 'Soft sunset tones and an easy fit give this tee a calm, bright feel that is easy to wear every day.',
     garmentClass: 'garment-tee shell-foam',
     artClass: 'design-sunset',
-    designLabel: 'sunset wash',
-    garmentTag: 'front art',
-    blankNote: 'V1 assumes a light Bella + Canvas-style tee with one centered front print and no extra placements.',
-    laterNote: 'If this one stays in the first drop, the later version can test a back-neck detail or a second blank color after samples.',
-    pills: ['placeholder preview', 'calm color story', 'front-only v1'],
+    designLabel: 'sunset glow',
+    garmentTag: 'front detail',
+    blankNote: 'Made to feel light, relaxed, and easy from the first wear.',
+    laterNote: 'A washed sunset palette keeps the piece soft, peaceful, and full of quiet color.',
+    pills: ['Tee', 'Soft sunset color', 'First collection'],
     focus: [
-      'Does the sunset feel calm and dreamy instead of too loud or dramatic?',
-      'Should the front artwork sit a little higher, lower, or stay centered?',
-      'Would you want this on bright white first, or a softer creamy blank?',
+      'Soft sunset tones that feel bright without feeling loud.',
+      'An easy front detail that keeps the look clean.',
+      'A calm color story that fits the heart of the collection.',
     ],
     palette: [
       { name: 'Coral sky', className: 'swatch-coral' },
@@ -37,29 +35,27 @@ const productCatalog = {
       { name: 'Warm cream', className: 'swatch-cream' },
     ],
     questions: [
-      'What is your favorite part of this sunset idea?',
-      'Should the artwork feel bigger, smaller, or exactly this size?',
-      'Does this still feel peaceful enough for Seaside Serenity?',
-      'Would you keep this in the first drop no matter what?',
+      'Sunset color with a calm, everyday mood.',
+      'Easy shape that feels relaxed and wearable.',
+      'A gentle front detail that keeps the piece light.',
+      'One of the most peaceful styles in the collection.',
     ],
   },
   'yellow-sun-tee': {
     name: 'Yellow Sun Tee',
     type: 'Tee',
-    price: '$25 target',
-    blank: 'Bright white tee placeholder',
-    lede: 'This is the simplest piece in the first drop on purpose: one sunny icon, one clear feeling, and enough brightness to feel instantly happy without getting noisy.',
+    lede: 'Bright, simple, and cheerful, this tee brings a little sunshine into everyday style.',
     garmentClass: 'garment-tee shell-sun',
     artClass: 'design-yellow',
-    designLabel: 'sun burst',
-    garmentTag: 'simple icon',
-    blankNote: 'V1 is one front print on a white tee so the yellow stays clean and high-contrast.',
-    laterNote: 'A later version could split the idea into a small chest sun and a larger back graphic, but that should wait.',
-    pills: ['placeholder preview', 'simple first icon', 'check the brightness'],
+    designLabel: 'sun glow',
+    garmentTag: 'front detail',
+    blankNote: 'Made with an easy tee shape so the color stays clean and the look stays light.',
+    laterNote: 'The simple sun motif gives this piece its charm without taking away from the calm feel of the collection.',
+    pills: ['Tee', 'Sunny favorite', 'First collection'],
     focus: [
-      'Does the simple sun already feel strong enough, or does it need more detail?',
-      'Is the yellow warm and cheerful, or should it shift softer?',
-      'Does this read as playful boutique style instead of a generic summer tee?',
+      'A warm yellow note that feels cheerful and clean.',
+      'A simple graphic that keeps the tee easy to style.',
+      'A bright piece that still feels soft and approachable.',
     ],
     palette: [
       { name: 'Golden yellow', className: 'swatch-sun' },
@@ -67,29 +63,27 @@ const productCatalog = {
       { name: 'Soft white', className: 'swatch-foam' },
     ],
     questions: [
-      'Would you wear the simple sun, or do you want more detail?',
-      'Does this one need more blue, more yellow, or less of both?',
-      'Should the sun sit higher on the shirt?',
-      'Does this feel like one of the strongest six pieces?',
+      'A sunny detail that lifts the whole look.',
+      'Simple enough for everyday wear.',
+      'Bright color balanced by a calm shape.',
+      'A cheerful favorite in the first collection.',
     ],
   },
   'white-polka-dots-tee': {
     name: 'White Polka Dots Tee',
     type: 'Tee',
-    price: '$25 target',
-    blank: 'Front-print tee placeholder',
-    lede: 'This preview uses a front-only polka-dot composition instead of a full all-over pattern. That keeps the product realistic for a first launch while preserving the playful spirit of the original name.',
+    lede: 'Playful dots and a light, easy feel give this tee a classic charm with a little extra personality.',
     garmentClass: 'garment-tee shell-sky',
     artClass: 'design-dots',
-    designLabel: 'dot cluster',
-    garmentTag: 'front-only v1',
-    blankNote: 'V1 keeps the dots on the front panel only so the product stays easy to produce on a standard tee blank.',
-    laterNote: 'If the family still loves the pattern idea after launch, a denser or wraparound version can come later with more production planning.',
-    pills: ['placeholder preview', 'safer v1 pattern', 'not all-over print'],
+    designLabel: 'polka dots',
+    garmentTag: 'front detail',
+    blankNote: 'Designed to feel fresh, light, and easy to wear from morning to evening.',
+    laterNote: 'The dot pattern keeps the piece playful while the overall shape stays clean and simple.',
+    pills: ['Tee', 'Playful classic', 'First collection'],
     focus: [
-      'Does the front-only dot idea still feel fun enough?',
-      'Should the dots be tighter, bigger, or more spread out?',
-      'Does this feel classic and cheerful instead of too plain?',
+      'Playful dots that keep the piece light and lively.',
+      'A simple shape that makes the pattern easy to wear.',
+      'Classic charm with a cheerful coastal feel.',
     ],
     palette: [
       { name: 'Powder blue', className: 'swatch-powder' },
@@ -97,29 +91,27 @@ const productCatalog = {
       { name: 'Cream dots', className: 'swatch-cream' },
     ],
     questions: [
-      'Would you rather keep this front-only or dream bigger later?',
-      'Are the dots sweet enough, or do they need another small detail?',
-      'Does this still feel like White Polka Dots even without all-over coverage?',
-      'Would this be a yes for launch one?',
+      'Light, playful pattern with an easy everyday mood.',
+      'A classic piece with extra personality.',
+      'Soft color that keeps the dots feeling fresh.',
+      'A cheerful style that brightens the whole collection.',
     ],
   },
   'catamaran-sunrise-hoodie': {
     name: 'Catamaran Sunrise Hoodie',
     type: 'Hoodie',
-    price: '$20 sketch price',
-    blank: 'Light hoodie placeholder',
-    lede: 'This preview leans into soft sunrise colors and a tiny catamaran moment. The goal is to check whether the hoodie already feels cozy and special before the art becomes fully detailed.',
+    lede: 'Soft sunrise color and a calm seaside mood make this hoodie cozy, bright, and easy to love.',
     garmentClass: 'garment-hoodie shell-sand',
     artClass: 'design-catamaran',
     designLabel: 'sunrise sail',
-    garmentTag: 'center front',
-    blankNote: 'V1 assumes a light pullover hoodie with one centered front print and no sleeve decoration yet.',
-    laterNote: 'A later version could add a sleeve sun or a back-neck detail, but only after the family likes the overall mood.',
-    pills: ['placeholder preview', 'cozy sunrise piece', 'check the sail idea'],
+    garmentTag: 'front detail',
+    blankNote: 'Designed as a comfortable everyday layer with a warm, easy feel.',
+    laterNote: 'Sunrise color and a quiet sailing detail give the piece its gentle coastal character.',
+    pills: ['Hoodie', 'Cozy sunrise layer', 'First collection'],
     focus: [
-      'Does the sunrise sail idea feel clear enough on a hoodie?',
-      'Should the art be lower, higher, or wider across the chest?',
-      'Does this feel warm and peaceful instead of too sporty?',
+      'A cozy shape that feels easy and relaxed.',
+      'Sunrise tones that keep the hoodie bright without feeling loud.',
+      'A quiet seaside detail that gives the piece its charm.',
     ],
     palette: [
       { name: 'Peach light', className: 'swatch-peach' },
@@ -127,29 +119,27 @@ const productCatalog = {
       { name: 'Sand blank', className: 'swatch-sand' },
     ],
     questions: [
-      'Is the catamaran part easy to understand or too subtle?',
-      'Would you want this on a sand hoodie or a softer sky color?',
-      'Should this one stay extra simple or get a little more detail later?',
-      'Does this feel like a first-drop favorite?',
+      'A warm layer with a soft sunrise mood.',
+      'Comfort-first shape with an easy coastal feel.',
+      'A subtle sailing note that keeps it memorable.',
+      'One of the coziest pieces in the collection.',
     ],
   },
   'gray-bow-sweatshirt': {
     name: 'Gray Bow Sweatshirt',
     type: 'Sweatshirt',
-    price: '$30 target',
-    blank: 'Sport grey sweatshirt placeholder',
-    lede: 'This is the quietest piece in the first drop. The bow should feel sweet, polished, and calm, not overly fancy and not too plain.',
+    lede: 'A soft bow detail gives this sweatshirt a sweet, polished feel without losing its calm, easy comfort.',
     garmentClass: 'garment-sweatshirt shell-grey',
     artClass: 'design-bow',
     designLabel: 'soft bow',
-    garmentTag: 'quiet favorite',
-    blankNote: 'V1 assumes a sport-grey crewneck with one front bow graphic and no extra decoration.',
-    laterNote: 'Embroidery and premium finishing can wait until after family review, samples, and a real launch path exist.',
-    pills: ['placeholder preview', 'sport grey mood', 'bow scale review'],
+    garmentTag: 'front detail',
+    blankNote: 'Made to feel cozy, understated, and easy to reach for.',
+    laterNote: 'The bow brings softness and charm while the muted palette keeps the look polished.',
+    pills: ['Sweatshirt', 'Quiet charm', 'First collection'],
     focus: [
-      'Does the bow feel sweet and boutique enough already?',
-      'Should the bow sit smaller at the chest, or stay as the main front graphic?',
-      'Does the grey feel soft and polished, or too plain?',
+      'A soft bow detail that feels sweet without feeling fussy.',
+      'A calm palette that keeps the whole piece polished.',
+      'An easy sweatshirt shape made for everyday comfort.',
     ],
     palette: [
       { name: 'Soft grey', className: 'swatch-grey' },
@@ -157,29 +147,27 @@ const productCatalog = {
       { name: 'Sea-blue accent', className: 'swatch-sky' },
     ],
     questions: [
-      'Would you wear this exactly as a quiet piece, or add another tiny detail?',
-      'Should the bow be more delicate or a little bolder?',
-      'Does the sweatshirt feel cozy enough for the collection?',
-      'Should this stay in the first six?',
+      'A quiet piece with plenty of personality.',
+      'Soft color that keeps the look calm and wearable.',
+      'A polished bow detail that feels light and sweet.',
+      'One of the gentlest styles in the collection.',
     ],
   },
   'fish-out-of-the-water-tote': {
     name: 'Fish Out of the Water Tote',
     type: 'Tote',
-    price: '$30 target',
-    blank: 'Natural tote placeholder',
-    lede: 'This preview is about a playful fish icon on a natural tote. It should feel quirky, giftable, and still part of the same calm coastal world as the apparel.',
+    lede: 'Playful and easy to carry, this tote brings a little seaside humor into the collection without losing its calm feel.',
     garmentClass: 'garment-tote shell-canvas',
     artClass: 'design-fish',
-    designLabel: 'fish charm',
-    garmentTag: 'front print',
-    blankNote: 'V1 is a one-sided natural tote with one fish graphic and no back print.',
-    laterNote: 'A later version can test a heavier tote, a second-side print, or a small slogan on the back.',
-    pills: ['placeholder preview', 'natural tote idea', 'check the charm'],
+    designLabel: 'fish detail',
+    garmentTag: 'front detail',
+    blankNote: 'Designed as an everyday carryall with a light coastal point of view.',
+    laterNote: 'The fish motif adds personality while the natural tote keeps the piece simple and useful.',
+    pills: ['Tote', 'Everyday tote', 'First collection'],
     focus: [
-      'Does the fish feel memorable and playful enough?',
-      'Should the graphic sit higher on the tote or stay centered?',
-      'Does this still feel coastal boutique instead of novelty gift-shop?',
+      'A playful fish detail that gives the tote its personality.',
+      'A simple shape that makes it easy to carry every day.',
+      'A calm coastal mood that keeps it charming instead of novelty-driven.',
     ],
     palette: [
       { name: 'Canvas', className: 'swatch-canvas' },
@@ -187,10 +175,10 @@ const productCatalog = {
       { name: 'Sunny gold', className: 'swatch-sun' },
     ],
     questions: [
-      'Would you carry this tote as-is, or does it need one more detail?',
-      'Should the fish be sweeter, funnier, or calmer?',
-      'Does the natural tote color feel right for this one?',
-      'Should this accessory definitely stay in the first drop?',
+      'An everyday tote with a little coastal humor.',
+      'Natural color that keeps the piece easy and versatile.',
+      'A playful motif that still feels polished.',
+      'A useful favorite with extra charm.',
     ],
   },
 };
@@ -291,7 +279,7 @@ function renderQuestions(id, items) {
 
     const count = document.createElement('p');
     count.className = 'eyebrow';
-    count.textContent = `Question ${index + 1}`;
+    count.textContent = `Highlight ${index + 1}`;
 
     const prompt = document.createElement('h3');
     prompt.textContent = item;
@@ -313,10 +301,10 @@ function renderProductPage() {
   const nextId = productOrder[(currentIndex + 1) % productOrder.length];
   const nextProduct = productCatalog[nextId];
 
-  document.title = `${product.name} Preview — Seaside Serenity`;
+  document.title = `${product.name} — Seaside Serenity`;
   document.querySelector('meta[name="description"]')?.setAttribute(
     'content',
-    `${product.name} placeholder preview for family review before production art and sampling.`
+    `${product.name} from the first Seaside Serenity collection. ${product.lede}`
   );
 
   setText('product-name', product.name);
@@ -336,7 +324,7 @@ function renderProductPage() {
     designMark.className = `design-mark ${product.artClass}`;
   }
 
-  renderPills('product-pills', [product.type, product.price, product.blank]);
+  renderPills('product-pills', product.pills);
   renderList('review-focus', product.focus);
   renderPalette('color-story', product.palette);
   renderQuestions('question-grid', product.questions);
@@ -346,7 +334,7 @@ function renderProductPage() {
     const link = document.getElementById(id);
     if (link) {
       link.href = `product.html?product=${nextId}`;
-      link.textContent = `Next preview: ${nextProduct.name}`;
+      link.textContent = `Next style: ${nextProduct.name}`;
     }
   });
 }
